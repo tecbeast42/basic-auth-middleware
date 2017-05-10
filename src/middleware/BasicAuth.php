@@ -3,7 +3,7 @@
 namespace TecBeast\BasicAuthWithEnv\Middleware;
 
 use Closure;
-use tecbeast\BasicAuth\Authenticator;
+use TecBeast\BasicAuthWithEnv\Authenticator;
 
 class BasicAuth
 {
