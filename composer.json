@@ -1,0 +1,16 @@
+{
+    "name": "tecbeast/basic-auth-with-env",
+    "description": "A middleware for Laravel 5.1+ where you can use basic auth with any webserver. Dependend only one config file.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "laravel/framework": ">=5.1.0",
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "TecBeast\\BasicAuthWithEnv\\": "src/"
+        }
+    }
+}
