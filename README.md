@@ -28,5 +28,5 @@ protected $middleware = [
 
 Publish the config to your application:
 ```
-php artisan vendor:publish
+php artisan vendor:publish  --provider=TecBeast\BasicAuthWithEnv\BasicAuthServiceProvider
 ```
